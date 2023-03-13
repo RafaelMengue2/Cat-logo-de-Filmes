@@ -1,7 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;   
+  box-sizing: border-box;
+}
+
+body{
+  justify-content: center;
+}
+
 #lista-filmes{
   display: flex;
-  justify-content: start;
+  justify-content:center;
   flex-wrap: wrap;
-  padding: 2.5rem;
-    
+  padding: 2em;
+  gap: 1.2rem;
+  width: 90rem;
+  text-align: center;
 }
+.card{
+  width: 37vh;
+}
+
+.card img{
+  height: 50vh;
+
+}
+
